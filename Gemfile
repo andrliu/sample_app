@@ -45,7 +45,9 @@ end
 
 group :test do
   gem 'rails-controller-testing', '0.1.1'
+  # To get the default Rails tests to show red and green at the appropriate times
   gem 'minitest-reporters',       '1.1.9'
+  # Guard will run the right tests when the integration tests and views are updated
   gem 'guard',                    '2.13.0'
   gem 'guard-minitest',           '2.4.4'
 end
