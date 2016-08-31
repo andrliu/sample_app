@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails',        '5.0.0.1'
+# A framework from Twitter that makes it easy to add nice web design and user interface elements to an HTML5 application.
+gem 'bootstrap-sass', '3.3.6'
 # Use Puma as the app server
 gem 'puma',         '3.4.0'
 # Use SCSS for stylesheets
