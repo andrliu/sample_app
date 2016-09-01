@@ -1,26 +1,28 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails',        '5.0.0.1'
+gem 'rails',          '5.0.0.1'
 # A framework from Twitter that makes it easy to add nice web design and user interface elements to an HTML5 application.
 gem 'bootstrap-sass', '3.3.6'
+# The bcrypt Ruby gem provides a simple wrapper for safely handling passwords.
+gem 'bcrypt',         '3.1.11'
 # Use Puma as the app server
-gem 'puma',         '3.4.0'
+gem 'puma',           '3.4.0'
 # Use SCSS for stylesheets
-gem 'sass-rails',   '5.0.6'
+gem 'sass-rails',     '5.0.6'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier',     '3.0.0'
+gem 'uglifier',       '3.0.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '4.2.1'
+gem 'coffee-rails',   '4.2.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '4.1.1'
+gem 'jquery-rails',   '4.1.1'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks',   '5.0.1'
+gem 'turbolinks',     '5.0.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder',     '2.4.1'
+gem 'jbuilder',       '2.4.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
